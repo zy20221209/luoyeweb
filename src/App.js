@@ -1,12 +1,8 @@
-// 项目的根组件
-// App.js->index.js->index.html
+import React from 'react';
 
 function App() {
-  return (
-    <div className="App">
-      this is app
-    </div>
-  );
+  const value = 'World';
+  return <div>Hello {value}</div>;
 }
 
 export default App;
